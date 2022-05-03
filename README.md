@@ -53,8 +53,15 @@ source ~/.bashrc
 Launch the Turtlebot3 Simulation with an empty world:
 
 ```bash
-roslaunch turtlebot3_empty_world.launch 
+roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch
 ```
+
+To run RVIZ, run in a new terminal:
+
+```bash
+roslaunch turtlebot3_gazebo turtlebot3_gazebo_rviz.launch 
+```
+
 
 # Notes about Gazebo
 
